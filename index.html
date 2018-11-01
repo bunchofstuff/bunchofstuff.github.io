@@ -1,0 +1,659 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>7 Lectures and Some Links</title><link href='https://fonts.loli.net/css?family=Merriweather:900,900italic,300,300italic&subset=latin-ext' rel='stylesheet' type='text/css' /><link href='https://fonts.loli.net/css?family=Lato:900,300&subset=latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) { 
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:first-child { margin-top: -20px; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.701961); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 80px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print { 
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid-page; break-before: avoid-page; }
+  #write { margin-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 1cm; padding-right: 1cm; padding-bottom: 0px; break-after: avoid-page; }
+  .typora-export #write::after { height: 0px; }
+  @page { margin: 20mm 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; text-align: center; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) { 
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+
+
+@include-when-export url(https://fonts.loli.net/css?family=Merriweather:900,900italic,300,300italic&subset=latin-ext);
+@include-when-export url(https://fonts.loli.net/css?family=Lato:900,300&subset=latin-ext);
+
+:root {
+	--control-text-color: #777;
+}
+
+/**
+ * forked from pixyll.com
+ * MIT license
+ */
+
+@font-face {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Merriweather Light'), local('Merriweather-Light'), url('file:///Users/xx/Library/Application%20Support/abnerworks.Typora/themes/pixyll/merriweather-v19-latin-300.woff') format('woff');
+}
+@font-face {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Merriweather Heavy'), local('Merriweather-Heavy'), url('file:///Users/xx/Library/Application%20Support/abnerworks.Typora/themes/pixyll/merriweather-v19-latin-700.woff') format('woff');
+}
+@font-face {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: normal;
+	src: local('Merriweather Light Italic'), local('Merriweather-LightItalic'), url('file:///Users/xx/Library/Application%20Support/abnerworks.Typora/themes/pixyll/merriweather-v19-latin-300italic.woff') format('woff');
+}
+@font-face {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: bold;
+	src: local('Merriweather Heavy Italic'), local('Merriweather-HeavyItalic'), url('file:///Users/xx/Library/Application%20Support/abnerworks.Typora/themes/pixyll/merriweather-v19-latin-700italic.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Lato Light'), local('Lato-Light'), url('file:///Users/xx/Library/Application%20Support/abnerworks.Typora/themes/pixyll/lato-v14-latin-300.woff') format('woff');
+}
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Lato Black'), local('Lato-Blcak'), url('file:///Users/xx/Library/Application%20Support/abnerworks.Typora/themes/pixyll/lato-v14-latin-900.woff') format('woff');
+}
+@font-face {
+	font-family: 'Lato';
+	font-style: italic;
+	font-weight: normal;
+	src: local('Lato LightItalic'), local('Lato-LightItalic'), url('file:///Users/xx/Library/Application%20Support/abnerworks.Typora/themes/pixyll/lato-v14-latin-300italic.woff') format('woff');
+}
+@font-face {
+	font-family: 'Lato';
+	font-style: italic;
+	font-weight: bold;
+	src: local('Lato BlackItalic'), local('Lato-BlackItalic'), url('file:///Users/xx/Library/Application%20Support/abnerworks.Typora/themes/pixyll/lato-v14-latin-900italic.woff') format('woff');
+}
+
+h1,
+.h1,
+.f1 {
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+h2,
+.h2,
+.f2 {
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+h3,
+.h3,
+.f3 {
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+}
+p,
+.p,
+.f4,
+h4,
+h5,
+h6,
+dl,
+ol,
+ul,
+pre[cid],
+div[cid],
+#typora-source {
+	font-size: 1.125rem;
+	line-height: 1.5rem;
+}
+
+h4 {
+	font-size: 1.13rem;
+}
+/*
+ Pixyll
+ A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff.
+ Best served with BASSCSS (http://jxnblk.github.io/basscss)
+ Crafted with <3 by John Otander (@4lpine) - ©2015 John Otander MIT License http://opensource.org/licenses/MIT
+
+*/
+
+body {
+	font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", "STSong", Serif;
+	line-height: 1.5rem;
+	font-weight: 400;
+}
+
+#write {
+	max-width: 914px;
+	color: #333;
+}
+
+img {
+	width: auto;
+	max-width: 100%;
+}
+body {
+	font-size: 1.5rem;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.ty-table-edit {
+	background: #ededed;
+}
+
+table {
+	width: 100%;
+	font-size: 1.125rem;
+}
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td,
+table > tfoot > tr > th,
+table > tfoot > tr > td {
+	padding: 12px;
+	line-height: 1.2;
+	vertical-align: top;
+	border-top: 1px solid #333;
+}
+table > thead > tr > th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #333;
+}
+table > caption + thead > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > th,
+table > thead:first-child > tr:first-child > td {
+	border-top: 0;
+}
+table > tbody + tbody {
+	border-top: 2px solid #333;
+}
+p {
+	font-weight: 300;
+	line-height: 1.5;
+}
+abbr {
+	border-bottom: 1px black dotted;
+	cursor: help;
+}
+pre,
+code {
+	font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+code,
+.md-fences  {
+	color: #7a7a7a;
+}
+
+.md-fences {
+	padding: 1.125em;
+	margin-bottom: 0.88em;
+	font-size: 1rem;
+	border: 1px solid #7a7a7a;
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+}
+
+blockquote {
+	padding: 1.33em;
+	font-style: italic;
+	border-left: 5px solid #7a7a7a;
+	color: #555;
+}
+blockquote em {
+	color: #000;
+}
+blockquote footer {
+	font-size: .85rem;
+	font-style: normal;
+	background-color: #fff;
+	color: #7a7a7a;
+	border-color: transparent;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+	font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 1.2;
+	margin: 1em 0 0.5em;
+}
+@media screen and (min-width: 48em) {
+	.h1,
+	h1 {
+		font-size: 3.250rem;
+	}
+	.h2,
+	h2 {
+		font-size: 2.298rem;
+	}
+	.h3,
+	h3 {
+		font-size: 1.625rem;
+	}
+	.h4,
+	h4 {
+		font-size: 1.3rem;
+	}
+	#write>h4.md-focus:before,
+	#write>h5.md-focus:before,
+	#write>h6.md-focus:before{
+		top: 1px;
+	}
+	.p,
+	p,
+	li {
+		font-size: 1.25rem;
+		line-height: 1.8;
+	}
+	table {
+		font-size: 1.25rem;
+	}
+}
+@media (max-width: 48em) {
+	blockquote {
+		margin-left: 1rem;
+		margin-right: 0;
+		padding: 0.5em;
+	}
+	.h1,
+	h1 {
+		font-size: 2.827rem;
+	}
+	.h2,
+	h2 {
+		font-size: 1.999rem;
+	}
+	.h3,
+	h3 {
+		font-size: 1.413rem;
+	}
+	.h4,
+	h4 {
+		font-size: 1.3rem;
+	}
+}
+@media screen and (min-width: 64em) {
+	.h1,
+	h1 {
+		font-size: 4.498rem;
+	}
+	.h2,
+	h2 {
+		font-size: 2.29rem;
+	}
+	.h3,
+	h3 {
+		font-size: 1.9rem;
+	}
+	.h4,
+	h4 {
+		font-size: 1.591rem;
+	}
+	#write>h4.md-focus:before{
+		top:4px;
+	}
+}
+a {
+	color: #463F5C;
+	text-decoration: underline;
+}
+
+#write {
+	padding-top: 2rem;
+}
+
+#write pre.md-meta-block {
+	min-height: 35px;
+	padding: 0.5em 1em;
+	white-space: pre;
+	border: 0px;
+
+	border-left: 30px #f8f8f8 solid;
+	border-right: 30px #f8f8f8 solid;
+	width: 100vw;
+	max-width: calc(100% + 60px);
+
+	margin-left: -30px;
+	margin-bottom: 2em;
+	margin-top: -2010px;
+	padding-top: 2000px;
+	padding-bottom: 10px;
+	line-height: 1.5em;
+	color: #7a7a7a;
+	background-color: #fafafa;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 300;
+	clear: both;
+	padding-left: 0;
+	font-size:1.125rem;
+}
+.md-image>.md-meta {
+	color: #463F5C
+}
+.footnotes {
+	font-size:1.1rem;
+}
+.md-tag {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.code-tooltip {
+	background: white;
+}
+.code-tooltip-content {
+	font-size: 1.1rem;
+}
+
+.task-list{
+	padding-left: 0;
+}
+
+.md-task-list-item {
+	padding-left:34px;
+}
+
+.md-task-list-item > input{
+	width: 1.25rem;
+	height: 1.25rem;
+	display: block;
+	-webkit-appearance: initial;
+	top: -2px;
+	margin-left: -1.6em;
+    margin-top: calc(1rem - 7px);
+}
+
+.md-task-list-item > input:focus{
+	outline: none;
+	box-shadow: none;
+}
+
+.md-task-list-item > input:before{
+	border: 1px solid #555;
+	border-radius: 1.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: #fff;
+	content: ' ';
+	transition: background-color 200ms ease-in-out;
+	display: block;
+}
+
+.md-task-list-item > input:checked:before,
+.md-task-list-item > input[checked]:before{
+	background: #333;
+	border-width: 2px;
+	display:inline-block;
+	transition: background-color 200ms ease-in-out;
+}
+
+.md-task-list-item > input:checked:after,
+.md-task-list-item > input[checked]:after {
+	opacity: 1;
+}
+
+.md-task-list-item > input:after {
+	opacity: 1;
+	-webkit-transition: opacity 0.05s ease-in-out;
+	-moz-transition: opacity 0.05s ease-in-out;
+	transition: opacity 0.05s ease-in-out;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	position: absolute;
+	top: 0.4375rem;
+	left: 0.28125rem;
+	width: 0.9375rem;
+	height: 0.5rem;
+	border: 3px solid #fff;
+	border-top: 0;
+	border-right: 0;
+	content: ' ';
+	opacity: 0;
+}
+
+.md-tag {
+	color:inherit;
+}
+
+.md-toc:focus .md-toc-content{
+	margin-top: 19px;
+}
+
+#typora-sidebar {
+	font-size:1rem !important;
+}
+
+.html-for-mac #typora-sidebar {
+	background-color:white;
+}
+
+.outline-content li, .outline-content ul {
+	font-size:1rem !important;
+}
+
+.outline-title {
+	line-height: inherit;
+	margin-top: 10px;
+}
+
+.outline-expander {
+	width: 18px;
+}
+
+.outline-expander:before {
+ 	content: "+";
+	font-family: inherit;
+	color: rgb(108, 108, 108); 
+  	font-size: 1.5rem;
+ 	top: 0.1rem;
+}
+
+.outline-expander:hover:before {
+	content: "+";
+}
+
+.outline-item-open>.outline-item>.outline-expander:before{
+	content: "-";
+}
+
+/** source code mode */
+#typora-source {
+	font-family: Courier, monospace;
+    color: #6A6A6A;
+}
+
+.os-windows #typora-source {
+	font-family: inherit;
+}
+
+.cm-s-typora-default .cm-header, 
+.cm-s-typora-default .cm-property,
+.CodeMirror.cm-s-typora-default div.CodeMirror-cursor {
+	color: #428bca;
+}
+
+.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number {
+	color: #777777;
+}
+
+.preference-item-hint {
+	margin-top: 16px;
+}
+
+.md-diagram-panel {
+	margin-top: 24px;
+	margin-left: -1.2em;
+}
+
+.md-mathjax-midline {
+	background: #fafafa;
+}
+
+.enable-diagrams pre.md-fences[lang="sequence"] .code-tooltip,
+.enable-diagrams pre.md-fences[lang="flow"] .code-tooltip,
+.enable-diagrams pre.md-fences[lang="mermaid"] .code-tooltip {
+    bottom: -3.4em;
+}
+
+.dropdown-menu .divider {
+	border-color: #e5e5e5;
+}
+
+ .typora-export p, .typora-export .footnote-line {white-space: normal;} 
+</style>
+</head>
+<body class='typora-export' >
+<div  id='write'  class = 'is-mac'><h2><a name='header-n0' class='md-header-anchor '></a>7 Lectures and Some Links</h2><div class='md-toc' mdtype='toc'><p class="md-toc-content"><span class="md-toc-item md-toc-h2" data-ref="n0"><a class="md-toc-inner" style="" href="#header-n0">7 Lectures and Some Links</a></span><span class="md-toc-item md-toc-h3" data-ref="n3"><a class="md-toc-inner" style="" href="#header-n3">Lecture Pods</a></span><span class="md-toc-item md-toc-h4" data-ref="n4"><a class="md-toc-inner" style="" href="#header-n4">Week 1</a></span><span class="md-toc-item md-toc-h5" data-ref="n71"><a class="md-toc-inner" style="" href="#header-n71">Reflection</a></span><span class="md-toc-item md-toc-h4" data-ref="n73"><a class="md-toc-inner" style="" href="#header-n73">Week 2</a></span><span class="md-toc-item md-toc-h4" data-ref="n141"><a class="md-toc-inner" style="" href="#header-n141">Week 3</a></span><span class="md-toc-item md-toc-h5" data-ref="n145"><a class="md-toc-inner" style="" href="#header-n145">Article Summary</a></span><span class="md-toc-item md-toc-h4" data-ref="n339"><a class="md-toc-inner" style="" href="#header-n339">Week 4</a></span><span class="md-toc-item md-toc-h4" data-ref="n422"><a class="md-toc-inner" style="" href="#header-n422">Week 5</a></span><span class="md-toc-item md-toc-h4" data-ref="n527"><a class="md-toc-inner" style="" href="#header-n527">Week 6</a></span><span class="md-toc-item md-toc-h4" data-ref="n548"><a class="md-toc-inner" style="" href="#header-n548">Week 7</a></span><span class="md-toc-item md-toc-h3" data-ref="n635"><a class="md-toc-inner" style="" href="#header-n635">App Redesign</a></span><span class="md-toc-item md-toc-h3" data-ref="n644"><a class="md-toc-inner" style="" href="#header-n644">Useful Links</a></span></p></div><h3><a name='header-n3' class='md-header-anchor '></a>Lecture Pods</h3><h4><a name='header-n4' class='md-header-anchor '></a>Week 1</h4><ul><li><p>Types of Apps</p><ul><li><p>Web App</p><ul><li><p>Makes use of web technologies and responsive web design</p></li><li><p>Pros</p><ul><li>Quick Option for making existing content available via a mobile device</li><li>Only needs to be built once and would be usable for every device</li></ul></li><li><p>Cons</p><ul><li>UX inferior (compared to native apps)</li><li>Performance Inferior (compared to native apps)</li></ul></li></ul></li><li><p>Hybrid App</p><ul><li><p>Combines elements of both web and native apps</p></li><li><p>Pros</p><ul><li>bridge gaps between native apps and a mobile website</li></ul></li><li><p>Cons</p><ul><li>No unique mobile functions</li></ul></li><li><p>Not only that, but, it&#39;s basically the same as a web app. It encourages lazy developing and will often have worse of performance than a native app</p></li></ul></li><li><p>Native</p><ul><li><p>Runs directly on a mobile device.</p></li><li><p>Pros</p><ul><li>UI and UX smooth and engagin</li><li>Faster load times and better overall performance</li><li>Better discoverability and brand image</li></ul></li><li><p>Cons</p><ul><li>Require development for each platform</li><li>Expensive</li><li>Time Consuming</li></ul></li></ul></li></ul></li><li><p>More than half, 55% of people in an oracle study say that a poor app or user experience would put them off buying or using a companies products or services.</p></li></ul><p>&nbsp;</p><h5><a name='header-n71' class='md-header-anchor '></a>Reflection</h5><p>Overall a fairly basic introduction to the course content that we will be covering. It was interesting to see the breakdown of the various types of app development and their pros and cons. These were largely unsurprising and ended up representing my personal feeling through experienceing the carious types of apps anyway. I also think the analysis into the users expectations of app development was fairly interesting, these once again were reflections of my already preconcieved ideas/wants. Overall a nice introduction</p><h4><a name='header-n73' class='md-header-anchor '></a>Week 2</h4><ul><li><p>New device categories like smart watches force us to learn new design paradigms</p></li><li><p>Was focused on print internet changed this</p></li><li><p>Early websites looked like signs with buttons on them</p></li><li><p>Initially web design paradigms came from print</p></li><li><p>Screen real estate also denotes hierarchy</p></li><li><p>When designing for mobile escaping from web structure is necessary</p></li><li><p>Change the way you work</p><ul><li><p>Lean UX cycles</p><ul><li>Think</li><li>Make</li><li>Check</li></ul></li></ul></li><li><p>Sketching on paper is useful because we focus only on the problem rather than design details</p></li><li><p>Mobile first is new in the web era, start by adapting a small design to a big one i.e. mobile to desktop</p></li><li><p>Understand development</p><ul><li>Designer and developer must work together</li><li>Learn to use development tools</li></ul></li></ul><p>&nbsp;</p><h4><a name='header-n141' class='md-header-anchor '></a>Week 3</h4><h5><a name='header-n145' class='md-header-anchor '></a>Article Summary</h5><ul><li><p>Designing an app has changed but over time many a thing has stayed the same.</p></li><li><p>One big thing that has stayed the same is the process of designing an app</p><ul><li><p>Idea</p><ul><li>Everything starts with an idea</li><li>&quot;The sooner you realize that ideas are nothing but passing phantoms of <em>something</em> that might one day turn into a product, the better you’ll be able to handle this phase.&quot;</li></ul></li><li><p>Spec (Specification)</p><ul><li>What your app does and how it does it</li></ul></li><li><p>Wireframe</p><ul><li>Low Fidelity mockup</li><li>Either part of spec or built from spec</li></ul></li><li><p>Prototype</p><ul><li>Higher fidelity mockup</li><li>Using software like inVision or Marvel</li></ul></li><li><p>Visual design</p><ul><li>The is the more traditional sense of design</li><li>The actual design of the app, not just making things look pretty but also thinking about usability</li></ul></li><li><p>Development</p><ul><li>Can be alongside the design</li><li>Actually implementing the app</li><li>Coding the whole lot</li></ul></li><li><p>Iterate</p><ul><li>Rinse and Repeat</li></ul></li></ul></li></ul><p>&nbsp;</p><h4><a name='header-n339' class='md-header-anchor '></a>Week 4</h4><ul><li><p>Understanding the device</p><ul><li>Use the device you want to design for</li><li>You need to understand the platform </li></ul></li><li><p>IOS</p><ul><li><p>Ask friends family or colleagues what they did when the got their iPhone</p></li><li><p>Same learning experience of the welcome screen they learn all the gestures in a few seconds of turning the device on</p></li><li><p>The 5 second learn</p><ul><li>User has been introduced to everything</li></ul></li><li><p>Tap</p></li><li><p>Drag</p></li><li><p>Flick</p></li><li><p>Pinch</p></li><li><p>Shake</p></li><li><p>iOs anatomy</p><ul><li>Bars</li><li>Content Views</li><li>Controls</li><li>Temporary Views</li></ul></li></ul></li></ul><p>&nbsp;</p><h4><a name='header-n422' class='md-header-anchor '></a>Week 5</h4><ul><li><p>Blueprint of an App or Website</p><ul><li>User Needs</li><li>Site Objectives</li><li>Strategy</li><li>Scope</li><li>Structure</li><li>Skeleton</li><li>Surface</li></ul></li><li><p>Personas</p><ul><li><p>Personas are used to identify and target your audience to give a better user experience</p></li><li><p>Personas can be made up of</p><ul><li>Age</li><li>Sex</li><li>Occupation</li><li>Hobbies</li><li>Likes/Dislikes</li><li>Other details relevant to the product you are developing.</li></ul></li><li><p>Artefact persona</p><ul><li><p>Sort of a compliment to a user persona</p></li><li><p>Rather than focusing on the person using it it focuses on the personality of the product</p></li><li><p>Ask questions like</p><ul><li>If the interface were a person, what would she or he be like?</li><li>How would you expect users to react when they first view the product?</li><li>How would you describe this product to a friend?</li><li>How is the product different from competitive products?</li><li>Which celebrity ( or car, movie, etc) is the product most like? Why ?</li></ul></li></ul></li></ul></li></ul><p>&nbsp;</p><h4><a name='header-n527' class='md-header-anchor '></a>Week 6</h4><ul><li><p>What is a user scenario</p><ul><li>User scenarios are the path a user would take to your product</li><li>A narrative describing foreseeable interactions of types of users</li><li>Provide the Who, What, When, Where, Why and How</li><li>Much like personas can be used to better divine a users needs or wants</li></ul></li></ul><h4><a name='header-n548' class='md-header-anchor '></a>Week 7</h4><ul><li><p>App UI patterns</p></li><li><p>Launch</p><ul><li>Used to reinforce branding</li><li>Allows app to be loaded</li><li>Don&#39;t confuse with home screen</li></ul></li><li><p>Tray</p><ul><li>Tray/Drawer/Sidebar/Hamburger</li><li>Active button + Tray Area</li><li>Used to hide info off screen</li><li>Enhance the screen they are on</li></ul></li><li><p>List</p><ul><li>Opening second and third level pages</li><li>Opening or exploring details for content section</li><li>Enlarging image</li><li>Opening screen or options</li><li>Don’t overdo a good thing</li><li>Don’t skip a step</li><li>No dead ends ( make sure it leads to an interactive result )</li></ul></li></ul><p>&nbsp;</p><h3><a name='header-n635' class='md-header-anchor '></a>App Redesign</h3><p>&nbsp;</p><p><img src='/Users/xx/Downloads/Untitled-1.png' alt='Untitled-1' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><h3><a name='header-n644' class='md-header-anchor '></a>Useful Links</h3><ul><li><p>UX Guidance and Studies</p><p><a href='https://www.nngroup.com/' target='_blank' class='url'>https://www.nngroup.com/</a></p></li><li><p>Colour Contrast Checker for Vision Impaired</p><p><a href='https://webaim.org/resources/contrastchecker/' target='_blank' class='url'>https://webaim.org/resources/contrastchecker/</a></p><p>&nbsp;</p></li></ul><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div>
+</body>
+</html>
